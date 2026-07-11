@@ -1,0 +1,183 @@
+/*TIPO*/
+
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arvo-bold {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+    font-family: "Arvo", arvo-regular;
+    background-image: url(../img/fondo.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-size: 22px;
+    margin: 0;
+
+
+}
+
+/*CONTENEDOR*/
+
+.contenedor{
+    width: 100%; 
+    margin: auto;
+    padding: 50px;
+    background-color: rgba(255,255,255,0.90);
+    text-align: center;
+
+}
+/*BODY*/
+
+body{
+    margun 0;
+    padding:0;
+}
+
+}
+/*HEADER*/
+
+header{
+    width: 100%;
+    max-width: 1200%;
+    background-color: #b0e0e6;
+    color: white;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: #21B7FD;
+}
+
+h3{
+    color: black;
+    font-size: 32px;
+}
+
+/*MENU*/
+
+.menu{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px
+    padding: 0px;
+    list-style: none;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: beige;
+    font-size: 24px;
+    padding: 10px;
+}
+
+.menu a:hover{
+    color: #21B7FD;
+}
+
+/*SECCIONES*////////////
+
+article{
+    background-color: white;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+}
+section{
+    border: 2px, black;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+aside{
+    margin: 30px auto;
+}
+
+
+}
+
+/*BLOCKQUOTE*/
+
+blockquote{
+    background-color: black;
+    border-left: 20px solid #0d4f8b;
+    padding: 30px;
+    margin: 50px auto;
+}
+
+/*IMAGENES*/
+
+img{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/*IFRAMES*/
+
+iframe{
+    max-width: 100%;
+    margin: 20px auto;
+    display: block;
+    color: white;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer a{
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+address{
+    margin-top: 10px;
+    color: darkgreen;
+    font-style: normal;
+}
+
+/*DIV PARRAFO HR*/
+
+hr{
+    margin: 25px auto;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.6;
+}
+
+div{
+    padding: 1rem;
+}
