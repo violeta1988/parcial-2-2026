@@ -1,2 +1,2 @@
-# parcial-2-2026
-parcial 2
+codigo para uso de  parcial-2-2026
+violeta gonzalez
