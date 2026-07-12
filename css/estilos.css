@@ -90,28 +90,26 @@ section {
     border-radius: 10px;
 }
 
-
-.dato-curioso {
-    background-color: black;
+/*datos curiosos al azar*/
+#seccion-curiosidades {
+    margin: 40px auto;
     padding: 20px;
-    margin: 30px;
-    width: 95%;
+    background-color: darkorange;
+    border: 2px black;
+    text-align: center;
 }
 
-
-.dato-curioso h2 {
-    font-size: 35px;
-    line-height: 1.5;
+#caja-dato {
+    display: flex;       
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
-
-.dato-curioso p {
-    color: white;
-}
-
-
+/*a chequear*/
 aside {
     margin: 50px auto;
+    text-align: left;
 }
 
 
@@ -185,4 +183,37 @@ address {
     color: darkgreen;
     font-style: normal;
     font-family: Arial;
+}
+
+
+
+
+/*GALERIA DE OBRAS CON SU DISEÑO INTERACTIVO*/
+
+/* display: flex y flex-wrap: wrap para que las imágenes se ordenen solas en cuadrícula*/
+#contenedor-obras {
+    display: flex;          
+    flex-wrap: wrap;        
+    justify-content: center;
+    gap: 20px;            
+    padding: 20px;
+}
+
+/* Estilo de cada obra-Modo CuadrículA */
+.obra {
+    width: 280px;           /* Ancho inicial para que entren varias por fila */
+    background-color: white;
+    padding: 10px;
+}
+
+.obra img {
+    width: 100%;
+    height: auto;
+}
+
+/* MODO TAMAÑO REAL (Se activa con el botón vía JavaScript) */
+/* Cuando el contenedor tiene esta clase, las obras crecen */
+.galeria-real .obra {
+    width: 100%;  
+    max-width: 800px;  
 }
