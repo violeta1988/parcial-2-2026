@@ -217,3 +217,32 @@ address {
     width: 100%;  
     max-width: 800px;  
 }
+
+
+/*gestion de produccion*/
+
+
+#contenedor-gestion{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+
+form {
+    display: flex; /* Clase 10 */
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, button {
+    padding: 8px;
+    font-size: 1rem;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
