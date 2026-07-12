@@ -1,2 +1,2 @@
-codigo para uso de  parcial-2-2026
+codigo para uso dSegundo parcial informatica 1 -2026 FACULTAD DE ARTES MULTIMEDIALES UNA
 violeta gonzalez
